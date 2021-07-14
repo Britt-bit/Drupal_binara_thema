@@ -1,0 +1,46 @@
+.site-logo img{
+    width: 10%; height: auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tabs .primary a{
+    color: green;
+    text-decoration: underline;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+field--name-field-title{
+    font-size: 30px;
+}
+
+
+.row{
+    margin-left: -1rem;
+    margin-right: -1rem;
+    display: flex;
+}
+
+.column{
+    float: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+@media only screen and (min-width: 868px){
+    .col-md-6 {
+        width: 50%;
+    }
+}

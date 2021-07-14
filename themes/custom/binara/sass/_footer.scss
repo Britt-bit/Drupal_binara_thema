@@ -1,0 +1,55 @@
+@import "variables";
+#footer {
+    background: rgb(55,55,55);
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+
+    .region-sidebar-first{
+        display: flex;
+        width: 50%;
+        font: 1em "Oswald", sans-serif;
+        line-height: 1.5;
+
+        nav{
+            width: 50%;
+            .menu{
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+            }
+            a{
+                text-decoration: none;
+                color: $primary-light-blue;
+                &:hover {
+                    color: $primary-line-color;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #footer {
+        .region-sidebar-first{
+            font-size: 0.8em;
+        }
+    }
+  }
+  @media only screen and (max-width: 568px) {
+    #footer {
+        .region-sidebar-first{
+            font-size: 0.6em
+        }
+    }
+  }
+  @media only screen and (max-width: 320px) {
+    #footer {
+        .region-sidebar-first{
+            font-size: 0.4em;
+        }
+    }
+  }

@@ -1,0 +1,132 @@
+.site-name a {
+    color: black;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.site-logo img{
+    width: 10%; 
+    height: auto;
+    padding-top: 1em;
+    display: inline-block;
+}
+
+.main-header{
+	width: 100%;
+	height: 200px;
+	background-image: url(../images/grey-light-wood-banner.png);
+    background-repeat: no-repeat;
+	position: relative;
+    top: 0;
+
+    .links{
+        text-align: right;
+        position: absolute;
+        padding: 10px 35px;
+        right:50px;
+
+        a{
+            color: rgb(231, 231, 231);
+            text-decoration: none;
+            line-height: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+    
+	.site-name{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+		font-size: 42px;
+		color: #fff;
+		line-height: 40px;
+		text-transform: uppercase;
+        font-weight: 100;
+        text-align: center;
+	}
+	.navigation{
+        position: absolute;
+        display: table;
+        margin: 0 auto;
+		bottom: 0;
+		height: 60px;
+		line-height: 60px;
+		width: 100%;
+        background-color: rgba(0,0,0,.3);
+        a{
+            color: rgb(231, 231, 231);
+            display: inline-block;
+            padding: 10px 35px;
+            line-height: 1;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+    .menu{
+        text-align: center;
+    }
+
+    .menu{
+        min-width: 800px;
+        list-style: none;
+        text-align: center;
+        font-size: 18px;
+    }
+    .menu-item{
+        display: inline;
+    }
+}
+
+
+
+.secondary-header {
+    background-color: rgba(0,0,0,.3);
+    a{
+        color: rgb(231, 231, 231);
+            display: inline-block;
+            padding: 10px 35px;
+            line-height: 1;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            &:hover{
+                text-decoration: underline;
+            }
+    }
+    .site-name{
+        display: none;
+    }
+    .menu{
+        text-align: center;
+    }
+
+    .navigation{
+        padding-bottom: 10px;
+        margin-top: -35px;
+
+    }
+    
+    .links{
+        text-align: right;
+        position: absolute;
+        padding: 20px 10px;
+        right: 10px;
+
+        a{
+            color: rgb(231, 231, 231);
+            text-decoration: none;
+            line-height: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+
+    .menu{
+        min-width: 800px;
+        list-style: none;
+        text-align: center;
+        font-size: 18px;
+    }
+    .menu-item{
+        display: inline;
+    }
+}

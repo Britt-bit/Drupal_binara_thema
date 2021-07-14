@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,8BAA+B;EAC7B,SAAS,EAAE,KAAK",
+"sources": ["../sass/geocoder_geocoder.scss"],
+"names": [],
+"file": "geocoder_geocoder.css"
+}
